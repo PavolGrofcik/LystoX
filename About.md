@@ -18,10 +18,12 @@ The prior goal was to make dataset with masks for convolutional
 neural network UNET to train and segment T-Lymphocytes.
   
 #### Examples
-
+<center>
 ![img](https://github.com/PavolGrofcik/LystoX/blob/master/figures/train_img_19351.png) 
 ![img](https://github.com/PavolGrofcik/LystoX/blob/master/figures/train_img_19351_mask.png)  
-*Fig. 1: Left an Original Image and the right image mask*  
+</center>  
+  
+*Fig. 1: Left an Original Image and the right the image mask*  
   
   
   
