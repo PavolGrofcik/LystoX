@@ -12,8 +12,8 @@
   
   
 Lystox is annotation tool that can help experts in domain to create 
-segmentation mask (*ground truth*) from medical data.  
-  &nbsp;
+segmentation mask (*ground truth*) from medical data.
+&nbsp;
 Developing this tool was a first part of bachelor thesis.
 The prior goal was to make dataset with masks for convolutional
 neural network UNET to train and segment T-Lymphocytes.  
