@@ -5,7 +5,7 @@
 #### FIIT STU
 #### Bratislava
 #### 2020
-#### Deep Neural networks and computer vision methods applied to medical dat
+#### Deep Neural networks and computer vision methods applied to medical data
 &nbsp;
 &nbsp;
 &nbsp;
