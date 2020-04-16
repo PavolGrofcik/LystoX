@@ -20,12 +20,12 @@ neural network UNET to train and segment T-Lymphocytes.
 #### Examples of Dataset
 
 ![img](https://github.com/PavolGrofcik/LystoX/blob/master/figures/train_img_19351.png) 
-![img](https://github.com/PavolGrofcik/LystoX/blob/master/figures/train_img_19351_mask.png)
-*An Original Image and the image mask*
-
+![img](https://github.com/PavolGrofcik/LystoX/blob/master/figures/train_img_19351_mask.png)  
+*An Original Image and the image mask*  
   
   
   
-
+  
+  
 ### All rights reserved to FIIT, STU, Bratislava  
 ### For more information contact author or institution  
