@@ -21,12 +21,12 @@ neural network UNET to train and segment T-Lymphocytes.
 
 ![img](https://github.com/PavolGrofcik/LystoX/blob/master/figures/train_img_19351.png) 
 ![img](https://github.com/PavolGrofcik/LystoX/blob/master/figures/train_img_19351_mask.png)  
-*Left an Original Image and right the image mask*  
+*Fig. 1: Left an Original Image and the right image mask*  
   
   
   
   
   
-### For more information contact author or institution  
+#### For more information contact author or institution  
   
 ### All rights reserved to FIIT, STU, Bratislava  
