@@ -19,7 +19,8 @@ neural network UNET to train and segment T-Lymphocytes.
 
 #### Examples of Dataset
 
-<div>
+| ![img](https://github.com/PavolGrofcik/LystoX/blob/master/figures/train_img_19351.png) | ![img](https://github.com/PavolGrofcik/LystoX/blob/master/figures/train_img_mask_19351.png)
+
 <p> 
     <img src="https://github.com/PavolGrofcik/LystoX/blob/master/figures/train_img_19351.png" alt="dominating_sets_example2" class="center"/>
     <br>
@@ -28,7 +29,7 @@ neural network UNET to train and segment T-Lymphocytes.
     <br>
     <em>Fig. 2: Image Mask</em>
 </p>
-</div>
+
   
   
   
