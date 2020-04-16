@@ -5,7 +5,7 @@
 #### FIIT STU
 #### Bratislava
 #### 2020
-#### Deep Neural networks and computer vision methods applied to medical data 
+#### Deep Neural networks and computer vision methods applied to medical dat
 &nbsp;
 &nbsp;
 &nbsp;
@@ -14,10 +14,9 @@
 Lystox is annotation tool that can help experts in domain to create 
 segmentation mask (*ground truth*) from medical data.  
   &nbsp;
-  
 Developing this tool was a first part of bachelor thesis.
 The prior goal was to make dataset with masks for convolutional
-neural network UNET to train and segment T-Lymphocytes.
+neural network UNET to train and segment T-Lymphocytes.  
 &nbsp;
 &nbsp;
 #### Annotation example
@@ -27,11 +26,11 @@ neural network UNET to train and segment T-Lymphocytes.
     
         
 *Fig. 1: Left an Original Image and the right the image mask*    
- &nbsp;
- &nbsp;
- &nbsp;
- &nbsp;
-      
+&nbsp;  
+&nbsp;  
+&nbsp;  
+&nbsp;  
+&nbsp;
 #### For more information contact author or institution  
-  
+&nbsp;
 #### All rights reserved to FIIT, STU, Bratislava  
