@@ -22,4 +22,5 @@ Examples of Dataset:
 
 
 **All rights reserved to FIIT, STU, Bratislava **
+
 ** For more information contact author or institution **
