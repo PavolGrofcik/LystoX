@@ -18,9 +18,10 @@ Examples of Dataset:
 
 ![Original Image](/figures/train_img_19351.png)
 ![Image Mask](/figures/train_img_19351_mask.png)
+  
+  
+  
+  
 
-
-
-**All rights reserved to FIIT, STU, Bratislava **
-
-** For more information contact author or institution **
+**All rights reserved to FIIT, STU, Bratislava **  
+** For more information contact author or institution **  
