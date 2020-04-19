@@ -25,7 +25,7 @@ neural network UNET to train and segment T-Lymphocytes.
     
     
         
-*Fig. 1: Left an Original image and the right the annotated image mask*    
+*Fig. 1: Left an original image and the right the annotated image mask*    
 &nbsp;  
 &nbsp;  
 &nbsp;  
