@@ -1,0 +1,406 @@
+2020-05-12 14:55:01,907 view.py 74 - app_logger.view.view - INFO - Action handler initilization successful!
+2020-05-12 14:55:01,907 controller.py 140 - app_logger.controller.controller - DEBUG - Parameters autosave: False, save original: True, image format: .png
+2020-05-12 14:55:01,907 controller.py 153 - app_logger.controller.controller - DEBUG - Metadata file: labels.csv
+2020-05-12 14:55:01,907 controller.py 60 - app_logger.controller.controller - DEBUG - Config successfully loaded!
+2020-05-12 14:55:01,907 controller.py 48 - app_logger.controller.controller - INFO - Controller initialization successful!
+2020-05-12 14:55:01,907 controller.py 119 - app_logger.controller.controller - DEBUG - Destination config dir C:\Users\grofc\Desktop\ successfully loaded
+2020-05-12 14:55:01,907 view.py 134 - app_logger.view.view - DEBUG - Default initilization successful!
+2020-05-12 14:55:02,298 view.py 59 - app_logger.view.view - INFO - View initilization successful!
+2020-05-12 14:55:07,635 directory.py 105 - app_logger.model.directory - DEBUG - Destination loaded directory: C:\Users\grofc\Desktop\
+2020-05-12 14:55:07,635 directory.py 128 - app_logger.model.directory - DEBUG - Destination dir: C:\Users\grofc\Desktop\\data_annotated Unmatched dir: C:\Users\grofc\Desktop\\data_annotated\Unmatched Original dir: C:\Users\grofc\Desktop\\data_annotated\Original
+2020-05-12 14:55:07,651 directory.py 158 - app_logger.model.directory - DEBUG - Image metadata file: C:\Users\grofc\Desktop\Samples\labels.csv
+2020-05-12 14:55:07,651 directory.py 159 - app_logger.model.directory - INFO - Images loaded successfully!
+2020-05-12 14:55:07,651 directory.py 37 - app_logger.model.directory - DEBUG - Index length: 3000, actual index: 0 ,last index: 2999
+2020-05-12 14:55:07,651 directory.py 39 - app_logger.model.directory - INFO - Dir iterator initialization successful!
+2020-05-12 14:55:07,651 directory.py 27 - app_logger.model.directory - INFO - Directory initialization successful!
+2020-05-12 14:55:07,651 image.py 40 - app_logger.model.image - DEBUG - Path: C:\Users\grofc\Desktop\Samples\lysto_pilot_1.png in valid formats!
+2020-05-12 14:55:07,651 image.py 75 - app_logger.model.image - DEBUG - Init args: C:\Users\grofc\Desktop\Samples\lysto_pilot_1.png, C:\Users\grofc\Desktop\Samples\ ,lysto_pilot_1.png, .png
+2020-05-12 14:55:07,667 image.py 103 - app_logger.model.image - INFO - Img loaded successfully!
+2020-05-12 14:55:07,667 image.py 104 - app_logger.model.image - DEBUG - Loaded image: lysto_pilot_1.png, path: C:\Users\grofc\Desktop\Samples\lysto_pilot_1.png
+2020-05-12 14:55:07,667 image.py 58 - app_logger.model.image - INFO - Image initialization successful!
+2020-05-12 14:55:07,667 controller.py 170 - app_logger.controller.controller - DEBUG - Images successfully loaded!
+2020-05-12 14:55:07,667 image.py 114 - app_logger.model.image - DEBUG - Image lysto_pilot_1.png reloaded!
+2020-05-12 14:55:07,667 image.py 40 - app_logger.model.image - DEBUG - Path: C:\Users\grofc\Desktop\Samples\lysto_pilot_1.png in valid formats!
+2020-05-12 14:55:07,667 image.py 75 - app_logger.model.image - DEBUG - Init args: C:\Users\grofc\Desktop\Samples\lysto_pilot_1.png, C:\Users\grofc\Desktop\Samples\ ,lysto_pilot_1.png, .png
+2020-05-12 14:55:07,667 image.py 103 - app_logger.model.image - INFO - Img loaded successfully!
+2020-05-12 14:55:07,667 image.py 104 - app_logger.model.image - DEBUG - Loaded image: lysto_pilot_1.png, path: C:\Users\grofc\Desktop\Samples\lysto_pilot_1.png
+2020-05-12 14:55:07,667 image.py 58 - app_logger.model.image - INFO - Image initialization successful!
+2020-05-12 14:55:07,667 controller.py 214 - app_logger.controller.controller - DEBUG - Image initialization successful!
+2020-05-12 14:55:07,682 controller.py 175 - app_logger.controller.controller - DEBUG - Metadata file successfully loaded!
+2020-05-12 14:55:07,698 view.py 434 - app_logger.view.view - DEBUG - Sliders set to default state!
+2020-05-12 14:55:07,698 view.py 111 - app_logger.view.view - INFO - Signal handler initilization successful!
+2020-05-12 14:55:07,698 view.py 170 - app_logger.view.view - DEBUG - First images initilization successful!
+2020-05-12 14:55:07,698 image.py 286 - app_logger.model.image - DEBUG - Image highlighted successfully!
+2020-05-12 14:55:07,698 controller.py 253 - app_logger.controller.controller - DEBUG - Image data to qimage data converted!
+2020-05-12 14:55:07,698 image.py 154 - app_logger.model.image - DEBUG - Image name: lysto_pilot_1.png
+2020-05-12 14:55:07,698 controller.py 364 - app_logger.controller.controller - DEBUG - Lymphocytes count: 4
+2020-05-12 14:55:07,698 view.py 304 - app_logger.view.view - DEBUG - Source image set successful!
+2020-05-12 14:55:07,698 controller.py 433 - app_logger.controller.controller - DEBUG - Input to parse: 33
+2020-05-12 14:55:07,698 controller.py 433 - app_logger.controller.controller - DEBUG - Input to parse: 41
+2020-05-12 14:55:07,698 image.py 337 - app_logger.model.image - DEBUG - Image grayed successfully!
+2020-05-12 14:55:07,713 image.py 302 - app_logger.model.image - DEBUG - Image borders blacken successfully!
+2020-05-12 14:55:07,713 image.py 370 - app_logger.model.image - DEBUG - Image thresholded successfully!
+2020-05-12 14:55:07,713 controller.py 422 - app_logger.controller.controller - DEBUG - Image preview successfully thresholded!
+2020-05-12 14:55:07,713 controller.py 253 - app_logger.controller.controller - DEBUG - Image data to qimage data converted!
+2020-05-12 14:55:07,713 image.py 154 - app_logger.model.image - DEBUG - Image name: lysto_pilot_1_mask.png
+2020-05-12 14:55:07,713 view.py 322 - app_logger.view.view - DEBUG - Preview image set successful!
+2020-05-12 14:55:09,742 directory.py 57 - app_logger.model.directory - DEBUG - Iterator index: 1
+2020-05-12 14:55:09,742 image.py 40 - app_logger.model.image - DEBUG - Path: C:\Users\grofc\Desktop\Samples\lysto_pilot_10.png in valid formats!
+2020-05-12 14:55:09,743 image.py 75 - app_logger.model.image - DEBUG - Init args: C:\Users\grofc\Desktop\Samples\lysto_pilot_10.png, C:\Users\grofc\Desktop\Samples\ ,lysto_pilot_10.png, .png
+2020-05-12 14:55:09,756 image.py 103 - app_logger.model.image - INFO - Img loaded successfully!
+2020-05-12 14:55:09,757 image.py 104 - app_logger.model.image - DEBUG - Loaded image: lysto_pilot_10.png, path: C:\Users\grofc\Desktop\Samples\lysto_pilot_10.png
+2020-05-12 14:55:09,757 image.py 58 - app_logger.model.image - INFO - Image initialization successful!
+2020-05-12 14:55:09,757 image.py 114 - app_logger.model.image - DEBUG - Image lysto_pilot_10.png reloaded!
+2020-05-12 14:55:09,757 image.py 40 - app_logger.model.image - DEBUG - Path: C:\Users\grofc\Desktop\Samples\lysto_pilot_10.png in valid formats!
+2020-05-12 14:55:09,757 image.py 75 - app_logger.model.image - DEBUG - Init args: C:\Users\grofc\Desktop\Samples\lysto_pilot_10.png, C:\Users\grofc\Desktop\Samples\ ,lysto_pilot_10.png, .png
+2020-05-12 14:55:09,762 image.py 103 - app_logger.model.image - INFO - Img loaded successfully!
+2020-05-12 14:55:09,762 image.py 104 - app_logger.model.image - DEBUG - Loaded image: lysto_pilot_10.png, path: C:\Users\grofc\Desktop\Samples\lysto_pilot_10.png
+2020-05-12 14:55:09,762 image.py 58 - app_logger.model.image - INFO - Image initialization successful!
+2020-05-12 14:55:09,762 controller.py 214 - app_logger.controller.controller - DEBUG - Image initialization successful!
+2020-05-12 14:55:09,762 image.py 286 - app_logger.model.image - DEBUG - Image highlighted successfully!
+2020-05-12 14:55:09,763 controller.py 253 - app_logger.controller.controller - DEBUG - Image data to qimage data converted!
+2020-05-12 14:55:09,765 image.py 154 - app_logger.model.image - DEBUG - Image name: lysto_pilot_10.png
+2020-05-12 14:55:09,767 controller.py 364 - app_logger.controller.controller - DEBUG - Lymphocytes count: 1
+2020-05-12 14:55:09,768 view.py 304 - app_logger.view.view - DEBUG - Source image set successful!
+2020-05-12 14:55:09,768 controller.py 433 - app_logger.controller.controller - DEBUG - Input to parse: 33
+2020-05-12 14:55:09,768 controller.py 433 - app_logger.controller.controller - DEBUG - Input to parse: 41
+2020-05-12 14:55:09,768 image.py 337 - app_logger.model.image - DEBUG - Image grayed successfully!
+2020-05-12 14:55:09,769 image.py 302 - app_logger.model.image - DEBUG - Image borders blacken successfully!
+2020-05-12 14:55:09,769 image.py 370 - app_logger.model.image - DEBUG - Image thresholded successfully!
+2020-05-12 14:55:09,769 controller.py 422 - app_logger.controller.controller - DEBUG - Image preview successfully thresholded!
+2020-05-12 14:55:09,769 controller.py 253 - app_logger.controller.controller - DEBUG - Image data to qimage data converted!
+2020-05-12 14:55:09,771 image.py 154 - app_logger.model.image - DEBUG - Image name: lysto_pilot_10_mask.png
+2020-05-12 14:55:09,772 view.py 322 - app_logger.view.view - DEBUG - Preview image set successful!
+2020-05-12 14:55:10,790 directory.py 66 - app_logger.model.directory - DEBUG - Iterator index: 0
+2020-05-12 14:55:10,790 image.py 40 - app_logger.model.image - DEBUG - Path: C:\Users\grofc\Desktop\Samples\lysto_pilot_1.png in valid formats!
+2020-05-12 14:55:10,791 image.py 75 - app_logger.model.image - DEBUG - Init args: C:\Users\grofc\Desktop\Samples\lysto_pilot_1.png, C:\Users\grofc\Desktop\Samples\ ,lysto_pilot_1.png, .png
+2020-05-12 14:55:10,795 image.py 103 - app_logger.model.image - INFO - Img loaded successfully!
+2020-05-12 14:55:10,796 image.py 104 - app_logger.model.image - DEBUG - Loaded image: lysto_pilot_1.png, path: C:\Users\grofc\Desktop\Samples\lysto_pilot_1.png
+2020-05-12 14:55:10,796 image.py 58 - app_logger.model.image - INFO - Image initialization successful!
+2020-05-12 14:55:10,796 image.py 114 - app_logger.model.image - DEBUG - Image lysto_pilot_1.png reloaded!
+2020-05-12 14:55:10,796 image.py 40 - app_logger.model.image - DEBUG - Path: C:\Users\grofc\Desktop\Samples\lysto_pilot_1.png in valid formats!
+2020-05-12 14:55:10,796 image.py 75 - app_logger.model.image - DEBUG - Init args: C:\Users\grofc\Desktop\Samples\lysto_pilot_1.png, C:\Users\grofc\Desktop\Samples\ ,lysto_pilot_1.png, .png
+2020-05-12 14:55:10,801 image.py 103 - app_logger.model.image - INFO - Img loaded successfully!
+2020-05-12 14:55:10,801 image.py 104 - app_logger.model.image - DEBUG - Loaded image: lysto_pilot_1.png, path: C:\Users\grofc\Desktop\Samples\lysto_pilot_1.png
+2020-05-12 14:55:10,801 image.py 58 - app_logger.model.image - INFO - Image initialization successful!
+2020-05-12 14:55:10,801 controller.py 214 - app_logger.controller.controller - DEBUG - Image initialization successful!
+2020-05-12 14:55:10,801 image.py 286 - app_logger.model.image - DEBUG - Image highlighted successfully!
+2020-05-12 14:55:10,802 controller.py 253 - app_logger.controller.controller - DEBUG - Image data to qimage data converted!
+2020-05-12 14:55:10,804 image.py 154 - app_logger.model.image - DEBUG - Image name: lysto_pilot_1.png
+2020-05-12 14:55:10,805 controller.py 364 - app_logger.controller.controller - DEBUG - Lymphocytes count: 4
+2020-05-12 14:55:10,806 view.py 304 - app_logger.view.view - DEBUG - Source image set successful!
+2020-05-12 14:55:10,806 controller.py 433 - app_logger.controller.controller - DEBUG - Input to parse: 33
+2020-05-12 14:55:10,806 controller.py 433 - app_logger.controller.controller - DEBUG - Input to parse: 41
+2020-05-12 14:55:10,806 image.py 337 - app_logger.model.image - DEBUG - Image grayed successfully!
+2020-05-12 14:55:10,807 image.py 302 - app_logger.model.image - DEBUG - Image borders blacken successfully!
+2020-05-12 14:55:10,807 image.py 370 - app_logger.model.image - DEBUG - Image thresholded successfully!
+2020-05-12 14:55:10,807 controller.py 422 - app_logger.controller.controller - DEBUG - Image preview successfully thresholded!
+2020-05-12 14:55:10,807 controller.py 253 - app_logger.controller.controller - DEBUG - Image data to qimage data converted!
+2020-05-12 14:55:10,809 image.py 154 - app_logger.model.image - DEBUG - Image name: lysto_pilot_1_mask.png
+2020-05-12 14:55:10,809 view.py 322 - app_logger.view.view - DEBUG - Preview image set successful!
+2020-05-12 14:55:11,582 directory.py 66 - app_logger.model.directory - DEBUG - Iterator index: 2999
+2020-05-12 14:55:11,582 image.py 40 - app_logger.model.image - DEBUG - Path: C:\Users\grofc\Desktop\Samples\lysto_pilot_999.png in valid formats!
+2020-05-12 14:55:11,582 image.py 75 - app_logger.model.image - DEBUG - Init args: C:\Users\grofc\Desktop\Samples\lysto_pilot_999.png, C:\Users\grofc\Desktop\Samples\ ,lysto_pilot_999.png, .png
+2020-05-12 14:55:11,597 image.py 103 - app_logger.model.image - INFO - Img loaded successfully!
+2020-05-12 14:55:11,597 image.py 104 - app_logger.model.image - DEBUG - Loaded image: lysto_pilot_999.png, path: C:\Users\grofc\Desktop\Samples\lysto_pilot_999.png
+2020-05-12 14:55:11,597 image.py 58 - app_logger.model.image - INFO - Image initialization successful!
+2020-05-12 14:55:11,597 image.py 114 - app_logger.model.image - DEBUG - Image lysto_pilot_999.png reloaded!
+2020-05-12 14:55:11,597 image.py 40 - app_logger.model.image - DEBUG - Path: C:\Users\grofc\Desktop\Samples\lysto_pilot_999.png in valid formats!
+2020-05-12 14:55:11,597 image.py 75 - app_logger.model.image - DEBUG - Init args: C:\Users\grofc\Desktop\Samples\lysto_pilot_999.png, C:\Users\grofc\Desktop\Samples\ ,lysto_pilot_999.png, .png
+2020-05-12 14:55:11,602 image.py 103 - app_logger.model.image - INFO - Img loaded successfully!
+2020-05-12 14:55:11,602 image.py 104 - app_logger.model.image - DEBUG - Loaded image: lysto_pilot_999.png, path: C:\Users\grofc\Desktop\Samples\lysto_pilot_999.png
+2020-05-12 14:55:11,602 image.py 58 - app_logger.model.image - INFO - Image initialization successful!
+2020-05-12 14:55:11,603 controller.py 214 - app_logger.controller.controller - DEBUG - Image initialization successful!
+2020-05-12 14:55:11,603 image.py 286 - app_logger.model.image - DEBUG - Image highlighted successfully!
+2020-05-12 14:55:11,603 controller.py 253 - app_logger.controller.controller - DEBUG - Image data to qimage data converted!
+2020-05-12 14:55:11,606 image.py 154 - app_logger.model.image - DEBUG - Image name: lysto_pilot_999.png
+2020-05-12 14:55:11,607 controller.py 364 - app_logger.controller.controller - DEBUG - Lymphocytes count: 0
+2020-05-12 14:55:11,608 view.py 304 - app_logger.view.view - DEBUG - Source image set successful!
+2020-05-12 14:55:11,608 controller.py 433 - app_logger.controller.controller - DEBUG - Input to parse: 33
+2020-05-12 14:55:11,608 controller.py 433 - app_logger.controller.controller - DEBUG - Input to parse: 41
+2020-05-12 14:55:11,609 image.py 337 - app_logger.model.image - DEBUG - Image grayed successfully!
+2020-05-12 14:55:11,609 image.py 302 - app_logger.model.image - DEBUG - Image borders blacken successfully!
+2020-05-12 14:55:11,609 image.py 370 - app_logger.model.image - DEBUG - Image thresholded successfully!
+2020-05-12 14:55:11,609 controller.py 422 - app_logger.controller.controller - DEBUG - Image preview successfully thresholded!
+2020-05-12 14:55:11,610 controller.py 253 - app_logger.controller.controller - DEBUG - Image data to qimage data converted!
+2020-05-12 14:55:11,612 image.py 154 - app_logger.model.image - DEBUG - Image name: lysto_pilot_999_mask.png
+2020-05-12 14:55:11,612 view.py 322 - app_logger.view.view - DEBUG - Preview image set successful!
+2020-05-12 14:55:12,624 directory.py 66 - app_logger.model.directory - DEBUG - Iterator index: 2998
+2020-05-12 14:55:12,624 image.py 40 - app_logger.model.image - DEBUG - Path: C:\Users\grofc\Desktop\Samples\lysto_pilot_998.png in valid formats!
+2020-05-12 14:55:12,624 image.py 75 - app_logger.model.image - DEBUG - Init args: C:\Users\grofc\Desktop\Samples\lysto_pilot_998.png, C:\Users\grofc\Desktop\Samples\ ,lysto_pilot_998.png, .png
+2020-05-12 14:55:12,638 image.py 103 - app_logger.model.image - INFO - Img loaded successfully!
+2020-05-12 14:55:12,638 image.py 104 - app_logger.model.image - DEBUG - Loaded image: lysto_pilot_998.png, path: C:\Users\grofc\Desktop\Samples\lysto_pilot_998.png
+2020-05-12 14:55:12,638 image.py 58 - app_logger.model.image - INFO - Image initialization successful!
+2020-05-12 14:55:12,638 image.py 114 - app_logger.model.image - DEBUG - Image lysto_pilot_998.png reloaded!
+2020-05-12 14:55:12,638 image.py 40 - app_logger.model.image - DEBUG - Path: C:\Users\grofc\Desktop\Samples\lysto_pilot_998.png in valid formats!
+2020-05-12 14:55:12,638 image.py 75 - app_logger.model.image - DEBUG - Init args: C:\Users\grofc\Desktop\Samples\lysto_pilot_998.png, C:\Users\grofc\Desktop\Samples\ ,lysto_pilot_998.png, .png
+2020-05-12 14:55:12,638 image.py 103 - app_logger.model.image - INFO - Img loaded successfully!
+2020-05-12 14:55:12,638 image.py 104 - app_logger.model.image - DEBUG - Loaded image: lysto_pilot_998.png, path: C:\Users\grofc\Desktop\Samples\lysto_pilot_998.png
+2020-05-12 14:55:12,638 image.py 58 - app_logger.model.image - INFO - Image initialization successful!
+2020-05-12 14:55:12,638 controller.py 214 - app_logger.controller.controller - DEBUG - Image initialization successful!
+2020-05-12 14:55:12,638 image.py 286 - app_logger.model.image - DEBUG - Image highlighted successfully!
+2020-05-12 14:55:12,638 controller.py 253 - app_logger.controller.controller - DEBUG - Image data to qimage data converted!
+2020-05-12 14:55:12,654 image.py 154 - app_logger.model.image - DEBUG - Image name: lysto_pilot_998.png
+2020-05-12 14:55:12,654 controller.py 364 - app_logger.controller.controller - DEBUG - Lymphocytes count: 0
+2020-05-12 14:55:12,654 view.py 304 - app_logger.view.view - DEBUG - Source image set successful!
+2020-05-12 14:55:12,654 controller.py 433 - app_logger.controller.controller - DEBUG - Input to parse: 33
+2020-05-12 14:55:12,654 controller.py 433 - app_logger.controller.controller - DEBUG - Input to parse: 41
+2020-05-12 14:55:12,654 image.py 337 - app_logger.model.image - DEBUG - Image grayed successfully!
+2020-05-12 14:55:12,654 image.py 302 - app_logger.model.image - DEBUG - Image borders blacken successfully!
+2020-05-12 14:55:12,654 image.py 370 - app_logger.model.image - DEBUG - Image thresholded successfully!
+2020-05-12 14:55:12,654 controller.py 422 - app_logger.controller.controller - DEBUG - Image preview successfully thresholded!
+2020-05-12 14:55:12,654 controller.py 253 - app_logger.controller.controller - DEBUG - Image data to qimage data converted!
+2020-05-12 14:55:12,654 image.py 154 - app_logger.model.image - DEBUG - Image name: lysto_pilot_998_mask.png
+2020-05-12 14:55:12,654 view.py 322 - app_logger.view.view - DEBUG - Preview image set successful!
+2020-05-12 14:55:13,126 directory.py 57 - app_logger.model.directory - DEBUG - Iterator index: 2999
+2020-05-12 14:55:13,126 image.py 40 - app_logger.model.image - DEBUG - Path: C:\Users\grofc\Desktop\Samples\lysto_pilot_999.png in valid formats!
+2020-05-12 14:55:13,126 image.py 75 - app_logger.model.image - DEBUG - Init args: C:\Users\grofc\Desktop\Samples\lysto_pilot_999.png, C:\Users\grofc\Desktop\Samples\ ,lysto_pilot_999.png, .png
+2020-05-12 14:55:13,131 image.py 103 - app_logger.model.image - INFO - Img loaded successfully!
+2020-05-12 14:55:13,131 image.py 104 - app_logger.model.image - DEBUG - Loaded image: lysto_pilot_999.png, path: C:\Users\grofc\Desktop\Samples\lysto_pilot_999.png
+2020-05-12 14:55:13,131 image.py 58 - app_logger.model.image - INFO - Image initialization successful!
+2020-05-12 14:55:13,131 image.py 114 - app_logger.model.image - DEBUG - Image lysto_pilot_999.png reloaded!
+2020-05-12 14:55:13,131 image.py 40 - app_logger.model.image - DEBUG - Path: C:\Users\grofc\Desktop\Samples\lysto_pilot_999.png in valid formats!
+2020-05-12 14:55:13,132 image.py 75 - app_logger.model.image - DEBUG - Init args: C:\Users\grofc\Desktop\Samples\lysto_pilot_999.png, C:\Users\grofc\Desktop\Samples\ ,lysto_pilot_999.png, .png
+2020-05-12 14:55:13,136 image.py 103 - app_logger.model.image - INFO - Img loaded successfully!
+2020-05-12 14:55:13,137 image.py 104 - app_logger.model.image - DEBUG - Loaded image: lysto_pilot_999.png, path: C:\Users\grofc\Desktop\Samples\lysto_pilot_999.png
+2020-05-12 14:55:13,137 image.py 58 - app_logger.model.image - INFO - Image initialization successful!
+2020-05-12 14:55:13,137 controller.py 214 - app_logger.controller.controller - DEBUG - Image initialization successful!
+2020-05-12 14:55:13,137 image.py 286 - app_logger.model.image - DEBUG - Image highlighted successfully!
+2020-05-12 14:55:13,137 controller.py 253 - app_logger.controller.controller - DEBUG - Image data to qimage data converted!
+2020-05-12 14:55:13,140 image.py 154 - app_logger.model.image - DEBUG - Image name: lysto_pilot_999.png
+2020-05-12 14:55:13,142 controller.py 364 - app_logger.controller.controller - DEBUG - Lymphocytes count: 0
+2020-05-12 14:55:13,142 view.py 304 - app_logger.view.view - DEBUG - Source image set successful!
+2020-05-12 14:55:13,142 controller.py 433 - app_logger.controller.controller - DEBUG - Input to parse: 33
+2020-05-12 14:55:13,142 controller.py 433 - app_logger.controller.controller - DEBUG - Input to parse: 41
+2020-05-12 14:55:13,142 image.py 337 - app_logger.model.image - DEBUG - Image grayed successfully!
+2020-05-12 14:55:13,143 image.py 302 - app_logger.model.image - DEBUG - Image borders blacken successfully!
+2020-05-12 14:55:13,143 image.py 370 - app_logger.model.image - DEBUG - Image thresholded successfully!
+2020-05-12 14:55:13,143 controller.py 422 - app_logger.controller.controller - DEBUG - Image preview successfully thresholded!
+2020-05-12 14:55:13,143 controller.py 253 - app_logger.controller.controller - DEBUG - Image data to qimage data converted!
+2020-05-12 14:55:13,145 image.py 154 - app_logger.model.image - DEBUG - Image name: lysto_pilot_999_mask.png
+2020-05-12 14:55:13,146 view.py 322 - app_logger.view.view - DEBUG - Preview image set successful!
+2020-05-12 14:55:13,309 directory.py 57 - app_logger.model.directory - DEBUG - Iterator index: 0
+2020-05-12 14:55:13,309 image.py 40 - app_logger.model.image - DEBUG - Path: C:\Users\grofc\Desktop\Samples\lysto_pilot_1.png in valid formats!
+2020-05-12 14:55:13,309 image.py 75 - app_logger.model.image - DEBUG - Init args: C:\Users\grofc\Desktop\Samples\lysto_pilot_1.png, C:\Users\grofc\Desktop\Samples\ ,lysto_pilot_1.png, .png
+2020-05-12 14:55:13,314 image.py 103 - app_logger.model.image - INFO - Img loaded successfully!
+2020-05-12 14:55:13,314 image.py 104 - app_logger.model.image - DEBUG - Loaded image: lysto_pilot_1.png, path: C:\Users\grofc\Desktop\Samples\lysto_pilot_1.png
+2020-05-12 14:55:13,314 image.py 58 - app_logger.model.image - INFO - Image initialization successful!
+2020-05-12 14:55:13,315 image.py 114 - app_logger.model.image - DEBUG - Image lysto_pilot_1.png reloaded!
+2020-05-12 14:55:13,315 image.py 40 - app_logger.model.image - DEBUG - Path: C:\Users\grofc\Desktop\Samples\lysto_pilot_1.png in valid formats!
+2020-05-12 14:55:13,315 image.py 75 - app_logger.model.image - DEBUG - Init args: C:\Users\grofc\Desktop\Samples\lysto_pilot_1.png, C:\Users\grofc\Desktop\Samples\ ,lysto_pilot_1.png, .png
+2020-05-12 14:55:13,319 image.py 103 - app_logger.model.image - INFO - Img loaded successfully!
+2020-05-12 14:55:13,319 image.py 104 - app_logger.model.image - DEBUG - Loaded image: lysto_pilot_1.png, path: C:\Users\grofc\Desktop\Samples\lysto_pilot_1.png
+2020-05-12 14:55:13,320 image.py 58 - app_logger.model.image - INFO - Image initialization successful!
+2020-05-12 14:55:13,320 controller.py 214 - app_logger.controller.controller - DEBUG - Image initialization successful!
+2020-05-12 14:55:13,320 image.py 286 - app_logger.model.image - DEBUG - Image highlighted successfully!
+2020-05-12 14:55:13,320 controller.py 253 - app_logger.controller.controller - DEBUG - Image data to qimage data converted!
+2020-05-12 14:55:13,322 image.py 154 - app_logger.model.image - DEBUG - Image name: lysto_pilot_1.png
+2020-05-12 14:55:13,325 controller.py 364 - app_logger.controller.controller - DEBUG - Lymphocytes count: 4
+2020-05-12 14:55:13,325 view.py 304 - app_logger.view.view - DEBUG - Source image set successful!
+2020-05-12 14:55:13,325 controller.py 433 - app_logger.controller.controller - DEBUG - Input to parse: 33
+2020-05-12 14:55:13,325 controller.py 433 - app_logger.controller.controller - DEBUG - Input to parse: 41
+2020-05-12 14:55:13,325 image.py 337 - app_logger.model.image - DEBUG - Image grayed successfully!
+2020-05-12 14:55:13,326 image.py 302 - app_logger.model.image - DEBUG - Image borders blacken successfully!
+2020-05-12 14:55:13,326 image.py 370 - app_logger.model.image - DEBUG - Image thresholded successfully!
+2020-05-12 14:55:13,326 controller.py 422 - app_logger.controller.controller - DEBUG - Image preview successfully thresholded!
+2020-05-12 14:55:13,326 controller.py 253 - app_logger.controller.controller - DEBUG - Image data to qimage data converted!
+2020-05-12 14:55:13,328 image.py 154 - app_logger.model.image - DEBUG - Image name: lysto_pilot_1_mask.png
+2020-05-12 14:55:13,329 view.py 322 - app_logger.view.view - DEBUG - Preview image set successful!
+2020-05-12 14:55:15,325 view.py 488 - app_logger.view.view - DEBUG - Mouse cursor X: 151, Y: 167!
+2020-05-12 14:55:15,325 image.py 337 - app_logger.model.image - DEBUG - Image grayed successfully!
+2020-05-12 14:55:15,325 image.py 302 - app_logger.model.image - DEBUG - Image borders blacken successfully!
+2020-05-12 14:55:15,325 image.py 370 - app_logger.model.image - DEBUG - Image thresholded successfully!
+2020-05-12 14:55:15,325 view.py 488 - app_logger.view.view - DEBUG - Mouse cursor X: 151, Y: 167!
+2020-05-12 14:55:15,325 view.py 662 - app_logger.view.view - DEBUG - Item coords to be highlighted X: 151, Y: 167
+2020-05-12 14:55:15,325 image.py 317 - app_logger.model.image - DEBUG - Image pixels filled successfully!
+2020-05-12 14:55:15,325 controller.py 253 - app_logger.controller.controller - DEBUG - Image data to qimage data converted!
+2020-05-12 14:55:15,325 image.py 154 - app_logger.model.image - DEBUG - Image name: lysto_pilot_1.png
+2020-05-12 14:55:15,325 controller.py 364 - app_logger.controller.controller - DEBUG - Lymphocytes count: 4
+2020-05-12 14:55:15,325 view.py 304 - app_logger.view.view - DEBUG - Source image set successful!
+2020-05-12 14:55:15,347 controller.py 494 - app_logger.controller.controller - DEBUG - Function args: ['X: 151 Y: 167'], 33, 41
+2020-05-12 14:55:15,347 controller.py 448 - app_logger.controller.controller - DEBUG - Items to parse: ['X: 151 Y: 167']
+2020-05-12 14:55:15,347 controller.py 433 - app_logger.controller.controller - DEBUG - Input to parse: 33
+2020-05-12 14:55:15,347 controller.py 433 - app_logger.controller.controller - DEBUG - Input to parse: 41
+2020-05-12 14:55:15,347 image.py 474 - app_logger.model.image - DEBUG - Image regions floodfilled successfully!
+2020-05-12 14:55:15,347 image.py 770 - app_logger.model.image - DEBUG - Image contours found successfully!
+2020-05-12 14:55:15,347 image.py 727 - app_logger.model.image - DEBUG - Image contours drawn!
+2020-05-12 14:55:15,347 image.py 426 - app_logger.model.image - DEBUG - Image regions selected successfully!
+2020-05-12 14:55:15,347 controller.py 253 - app_logger.controller.controller - DEBUG - Image data to qimage data converted!
+2020-05-12 14:55:15,363 image.py 154 - app_logger.model.image - DEBUG - Image name: lysto_pilot_1_mask.png
+2020-05-12 14:55:15,363 view.py 322 - app_logger.view.view - DEBUG - Preview image set successful!
+2020-05-12 14:55:15,363 image.py 770 - app_logger.model.image - DEBUG - Image contours found successfully!
+2020-05-12 14:55:15,363 controller.py 364 - app_logger.controller.controller - DEBUG - Lymphocytes count: 4
+2020-05-12 14:55:16,440 view.py 488 - app_logger.view.view - DEBUG - Mouse cursor X: 58, Y: 237!
+2020-05-12 14:55:16,440 image.py 337 - app_logger.model.image - DEBUG - Image grayed successfully!
+2020-05-12 14:55:16,440 image.py 302 - app_logger.model.image - DEBUG - Image borders blacken successfully!
+2020-05-12 14:55:16,440 image.py 370 - app_logger.model.image - DEBUG - Image thresholded successfully!
+2020-05-12 14:55:16,440 view.py 488 - app_logger.view.view - DEBUG - Mouse cursor X: 58, Y: 237!
+2020-05-12 14:55:16,440 view.py 662 - app_logger.view.view - DEBUG - Item coords to be highlighted X: 58, Y: 237
+2020-05-12 14:55:16,440 image.py 317 - app_logger.model.image - DEBUG - Image pixels filled successfully!
+2020-05-12 14:55:16,440 controller.py 253 - app_logger.controller.controller - DEBUG - Image data to qimage data converted!
+2020-05-12 14:55:16,455 image.py 154 - app_logger.model.image - DEBUG - Image name: lysto_pilot_1.png
+2020-05-12 14:55:16,455 controller.py 364 - app_logger.controller.controller - DEBUG - Lymphocytes count: 4
+2020-05-12 14:55:16,455 view.py 304 - app_logger.view.view - DEBUG - Source image set successful!
+2020-05-12 14:55:16,455 controller.py 494 - app_logger.controller.controller - DEBUG - Function args: ['X: 151 Y: 167', 'X: 58 Y: 237'], 33, 41
+2020-05-12 14:55:16,455 controller.py 448 - app_logger.controller.controller - DEBUG - Items to parse: ['X: 151 Y: 167', 'X: 58 Y: 237']
+2020-05-12 14:55:16,455 controller.py 433 - app_logger.controller.controller - DEBUG - Input to parse: 33
+2020-05-12 14:55:16,455 controller.py 433 - app_logger.controller.controller - DEBUG - Input to parse: 41
+2020-05-12 14:55:16,455 image.py 337 - app_logger.model.image - DEBUG - Image grayed successfully!
+2020-05-12 14:55:16,455 image.py 302 - app_logger.model.image - DEBUG - Image borders blacken successfully!
+2020-05-12 14:55:16,455 image.py 370 - app_logger.model.image - DEBUG - Image thresholded successfully!
+2020-05-12 14:55:16,455 image.py 474 - app_logger.model.image - DEBUG - Image regions floodfilled successfully!
+2020-05-12 14:55:16,455 image.py 770 - app_logger.model.image - DEBUG - Image contours found successfully!
+2020-05-12 14:55:16,455 image.py 727 - app_logger.model.image - DEBUG - Image contours drawn!
+2020-05-12 14:55:16,455 image.py 426 - app_logger.model.image - DEBUG - Image regions selected successfully!
+2020-05-12 14:55:16,455 controller.py 253 - app_logger.controller.controller - DEBUG - Image data to qimage data converted!
+2020-05-12 14:55:16,471 image.py 154 - app_logger.model.image - DEBUG - Image name: lysto_pilot_1_mask.png
+2020-05-12 14:55:16,471 view.py 322 - app_logger.view.view - DEBUG - Preview image set successful!
+2020-05-12 14:55:16,471 image.py 770 - app_logger.model.image - DEBUG - Image contours found successfully!
+2020-05-12 14:55:16,471 controller.py 364 - app_logger.controller.controller - DEBUG - Lymphocytes count: 4
+2020-05-12 14:55:18,021 view.py 488 - app_logger.view.view - DEBUG - Mouse cursor X: 24, Y: 190!
+2020-05-12 14:55:18,021 image.py 337 - app_logger.model.image - DEBUG - Image grayed successfully!
+2020-05-12 14:55:18,021 image.py 302 - app_logger.model.image - DEBUG - Image borders blacken successfully!
+2020-05-12 14:55:18,021 image.py 370 - app_logger.model.image - DEBUG - Image thresholded successfully!
+2020-05-12 14:55:18,021 view.py 488 - app_logger.view.view - DEBUG - Mouse cursor X: 24, Y: 190!
+2020-05-12 14:55:18,021 view.py 662 - app_logger.view.view - DEBUG - Item coords to be highlighted X: 24, Y: 190
+2020-05-12 14:55:18,021 image.py 317 - app_logger.model.image - DEBUG - Image pixels filled successfully!
+2020-05-12 14:55:18,021 controller.py 253 - app_logger.controller.controller - DEBUG - Image data to qimage data converted!
+2020-05-12 14:55:18,021 image.py 154 - app_logger.model.image - DEBUG - Image name: lysto_pilot_1.png
+2020-05-12 14:55:18,037 controller.py 364 - app_logger.controller.controller - DEBUG - Lymphocytes count: 4
+2020-05-12 14:55:18,037 view.py 304 - app_logger.view.view - DEBUG - Source image set successful!
+2020-05-12 14:55:18,037 controller.py 494 - app_logger.controller.controller - DEBUG - Function args: ['X: 151 Y: 167', 'X: 58 Y: 237', 'X: 24 Y: 190'], 33, 41
+2020-05-12 14:55:18,037 controller.py 448 - app_logger.controller.controller - DEBUG - Items to parse: ['X: 151 Y: 167', 'X: 58 Y: 237', 'X: 24 Y: 190']
+2020-05-12 14:55:18,037 controller.py 433 - app_logger.controller.controller - DEBUG - Input to parse: 33
+2020-05-12 14:55:18,037 controller.py 433 - app_logger.controller.controller - DEBUG - Input to parse: 41
+2020-05-12 14:55:18,037 image.py 337 - app_logger.model.image - DEBUG - Image grayed successfully!
+2020-05-12 14:55:18,037 image.py 302 - app_logger.model.image - DEBUG - Image borders blacken successfully!
+2020-05-12 14:55:18,037 image.py 370 - app_logger.model.image - DEBUG - Image thresholded successfully!
+2020-05-12 14:55:18,037 image.py 474 - app_logger.model.image - DEBUG - Image regions floodfilled successfully!
+2020-05-12 14:55:18,037 image.py 770 - app_logger.model.image - DEBUG - Image contours found successfully!
+2020-05-12 14:55:18,037 image.py 727 - app_logger.model.image - DEBUG - Image contours drawn!
+2020-05-12 14:55:18,037 image.py 426 - app_logger.model.image - DEBUG - Image regions selected successfully!
+2020-05-12 14:55:18,037 controller.py 253 - app_logger.controller.controller - DEBUG - Image data to qimage data converted!
+2020-05-12 14:55:18,037 image.py 154 - app_logger.model.image - DEBUG - Image name: lysto_pilot_1_mask.png
+2020-05-12 14:55:18,037 view.py 322 - app_logger.view.view - DEBUG - Preview image set successful!
+2020-05-12 14:55:18,037 image.py 770 - app_logger.model.image - DEBUG - Image contours found successfully!
+2020-05-12 14:55:18,052 controller.py 364 - app_logger.controller.controller - DEBUG - Lymphocytes count: 4
+2020-05-12 14:55:26,824 view.py 488 - app_logger.view.view - DEBUG - Mouse cursor X: 154, Y: 168!
+2020-05-12 14:55:26,824 view.py 770 - app_logger.view.view - DEBUG - Structuring element: Ellipse, size: 10
+2020-05-12 14:55:26,824 image.py 474 - app_logger.model.image - DEBUG - Image regions floodfilled successfully!
+2020-05-12 14:55:26,855 controller.py 528 - app_logger.controller.controller - DEBUG - Morphological open successful!
+2020-05-12 14:55:26,855 controller.py 448 - app_logger.controller.controller - DEBUG - Items to parse: ['X: 151 Y: 167', 'X: 58 Y: 237', 'X: 24 Y: 190']
+2020-05-12 14:55:26,855 controller.py 541 - app_logger.controller.controller - DEBUG - Image coords: [(151, 167), (58, 237), (24, 190)], found: [(58, 237), (24, 190)]
+2020-05-12 14:55:26,855 controller.py 448 - app_logger.controller.controller - DEBUG - Items to parse: ['X: 58 Y: 237', 'X: 24 Y: 190']
+2020-05-12 14:55:26,855 image.py 770 - app_logger.model.image - DEBUG - Image contours found successfully!
+2020-05-12 14:55:26,855 image.py 727 - app_logger.model.image - DEBUG - Image contours drawn!
+2020-05-12 14:55:26,855 image.py 499 - app_logger.model.image - DEBUG - Image regions extracted successfully!
+2020-05-12 14:55:26,855 image.py 770 - app_logger.model.image - DEBUG - Image contours found successfully!
+2020-05-12 14:55:26,855 image.py 727 - app_logger.model.image - DEBUG - Image contours drawn!
+2020-05-12 14:55:26,855 image.py 690 - app_logger.model.image - DEBUG - Image regions merged successfully!
+2020-05-12 14:55:26,855 controller.py 565 - app_logger.controller.controller - DEBUG - Image regions merged successfully!
+2020-05-12 14:55:26,871 image.py 131 - app_logger.model.image - DEBUG - Image lysto_pilot_1.png data reloaded!
+2020-05-12 14:55:26,871 image.py 286 - app_logger.model.image - DEBUG - Image highlighted successfully!
+2020-05-12 14:55:26,871 view.py 591 - app_logger.view.view - DEBUG - Image items to be set: ['X: 58 Y: 237', 'X: 24 Y: 190', 'X: 151 Y: 165', 'X: 125 Y: 161']
+2020-05-12 14:55:26,871 view.py 641 - app_logger.view.view - DEBUG - Items to be highlighted: ['X: 58 Y: 237', 'X: 24 Y: 190', 'X: 151 Y: 165', 'X: 125 Y: 161']
+2020-05-12 14:55:26,871 view.py 662 - app_logger.view.view - DEBUG - Item coords to be highlighted X: 58, Y: 237
+2020-05-12 14:55:26,871 image.py 317 - app_logger.model.image - DEBUG - Image pixels filled successfully!
+2020-05-12 14:55:26,871 controller.py 253 - app_logger.controller.controller - DEBUG - Image data to qimage data converted!
+2020-05-12 14:55:26,871 image.py 154 - app_logger.model.image - DEBUG - Image name: lysto_pilot_1.png
+2020-05-12 14:55:26,871 controller.py 364 - app_logger.controller.controller - DEBUG - Lymphocytes count: 4
+2020-05-12 14:55:26,871 view.py 304 - app_logger.view.view - DEBUG - Source image set successful!
+2020-05-12 14:55:26,871 view.py 662 - app_logger.view.view - DEBUG - Item coords to be highlighted X: 24, Y: 190
+2020-05-12 14:55:26,871 image.py 317 - app_logger.model.image - DEBUG - Image pixels filled successfully!
+2020-05-12 14:55:26,871 controller.py 253 - app_logger.controller.controller - DEBUG - Image data to qimage data converted!
+2020-05-12 14:55:26,871 image.py 154 - app_logger.model.image - DEBUG - Image name: lysto_pilot_1.png
+2020-05-12 14:55:26,887 controller.py 364 - app_logger.controller.controller - DEBUG - Lymphocytes count: 4
+2020-05-12 14:55:26,887 view.py 304 - app_logger.view.view - DEBUG - Source image set successful!
+2020-05-12 14:55:26,887 view.py 662 - app_logger.view.view - DEBUG - Item coords to be highlighted X: 151, Y: 165
+2020-05-12 14:55:26,887 image.py 317 - app_logger.model.image - DEBUG - Image pixels filled successfully!
+2020-05-12 14:55:26,887 controller.py 253 - app_logger.controller.controller - DEBUG - Image data to qimage data converted!
+2020-05-12 14:55:26,887 image.py 154 - app_logger.model.image - DEBUG - Image name: lysto_pilot_1.png
+2020-05-12 14:55:26,887 controller.py 364 - app_logger.controller.controller - DEBUG - Lymphocytes count: 4
+2020-05-12 14:55:26,887 view.py 304 - app_logger.view.view - DEBUG - Source image set successful!
+2020-05-12 14:55:26,887 view.py 662 - app_logger.view.view - DEBUG - Item coords to be highlighted X: 125, Y: 161
+2020-05-12 14:55:26,887 image.py 317 - app_logger.model.image - DEBUG - Image pixels filled successfully!
+2020-05-12 14:55:26,887 controller.py 253 - app_logger.controller.controller - DEBUG - Image data to qimage data converted!
+2020-05-12 14:55:26,887 image.py 154 - app_logger.model.image - DEBUG - Image name: lysto_pilot_1.png
+2020-05-12 14:55:26,902 controller.py 364 - app_logger.controller.controller - DEBUG - Lymphocytes count: 4
+2020-05-12 14:55:26,902 view.py 304 - app_logger.view.view - DEBUG - Source image set successful!
+2020-05-12 14:55:26,902 controller.py 253 - app_logger.controller.controller - DEBUG - Image data to qimage data converted!
+2020-05-12 14:55:26,902 image.py 154 - app_logger.model.image - DEBUG - Image name: lysto_pilot_1.png
+2020-05-12 14:55:26,902 controller.py 364 - app_logger.controller.controller - DEBUG - Lymphocytes count: 4
+2020-05-12 14:55:26,902 view.py 304 - app_logger.view.view - DEBUG - Source image set successful!
+2020-05-12 14:55:26,902 controller.py 253 - app_logger.controller.controller - DEBUG - Image data to qimage data converted!
+2020-05-12 14:55:26,902 image.py 154 - app_logger.model.image - DEBUG - Image name: lysto_pilot_1_mask.png
+2020-05-12 14:55:26,902 view.py 322 - app_logger.view.view - DEBUG - Preview image set successful!
+2020-05-12 14:55:26,902 image.py 770 - app_logger.model.image - DEBUG - Image contours found successfully!
+2020-05-12 14:55:26,902 controller.py 364 - app_logger.controller.controller - DEBUG - Lymphocytes count: 4
+2020-05-12 14:55:28,197 view.py 488 - app_logger.view.view - DEBUG - Mouse cursor X: 149, Y: 28!
+2020-05-12 14:55:28,198 image.py 337 - app_logger.model.image - DEBUG - Image grayed successfully!
+2020-05-12 14:55:28,199 image.py 302 - app_logger.model.image - DEBUG - Image borders blacken successfully!
+2020-05-12 14:55:28,200 image.py 370 - app_logger.model.image - DEBUG - Image thresholded successfully!
+2020-05-12 14:55:28,200 image.py 131 - app_logger.model.image - DEBUG - Image lysto_pilot_1_mask.png data reloaded!
+2020-05-12 14:55:28,200 image.py 337 - app_logger.model.image - DEBUG - Image grayed successfully!
+2020-05-12 14:55:28,200 image.py 302 - app_logger.model.image - DEBUG - Image borders blacken successfully!
+2020-05-12 14:55:28,200 image.py 370 - app_logger.model.image - DEBUG - Image thresholded successfully!
+2020-05-12 14:55:28,200 image.py 474 - app_logger.model.image - DEBUG - Image regions floodfilled successfully!
+2020-05-12 14:55:28,200 image.py 770 - app_logger.model.image - DEBUG - Image contours found successfully!
+2020-05-12 14:55:28,216 image.py 727 - app_logger.model.image - DEBUG - Image contours drawn!
+2020-05-12 14:55:28,216 image.py 447 - app_logger.model.image - DEBUG - Image new regions added successfully!
+2020-05-12 14:55:28,216 view.py 488 - app_logger.view.view - DEBUG - Mouse cursor X: 149, Y: 28!
+2020-05-12 14:55:28,216 view.py 662 - app_logger.view.view - DEBUG - Item coords to be highlighted X: 149, Y: 28
+2020-05-12 14:55:28,216 image.py 317 - app_logger.model.image - DEBUG - Image pixels filled successfully!
+2020-05-12 14:55:28,216 controller.py 253 - app_logger.controller.controller - DEBUG - Image data to qimage data converted!
+2020-05-12 14:55:28,216 image.py 154 - app_logger.model.image - DEBUG - Image name: lysto_pilot_1.png
+2020-05-12 14:55:28,216 controller.py 364 - app_logger.controller.controller - DEBUG - Lymphocytes count: 4
+2020-05-12 14:55:28,216 view.py 304 - app_logger.view.view - DEBUG - Source image set successful!
+2020-05-12 14:55:28,216 controller.py 253 - app_logger.controller.controller - DEBUG - Image data to qimage data converted!
+2020-05-12 14:55:28,232 image.py 154 - app_logger.model.image - DEBUG - Image name: lysto_pilot_1_mask.png
+2020-05-12 14:55:28,232 view.py 322 - app_logger.view.view - DEBUG - Preview image set successful!
+2020-05-12 14:55:28,232 image.py 770 - app_logger.model.image - DEBUG - Image contours found successfully!
+2020-05-12 14:55:28,232 controller.py 364 - app_logger.controller.controller - DEBUG - Lymphocytes count: 4
+2020-05-12 14:55:29,320 view.py 488 - app_logger.view.view - DEBUG - Mouse cursor X: 150, Y: 20!
+2020-05-12 14:55:29,320 controller.py 448 - app_logger.controller.controller - DEBUG - Items to parse: ['X: 58 Y: 237', 'X: 24 Y: 190', 'X: 151 Y: 165', 'X: 125 Y: 161', 'X: 149 Y: 28']
+2020-05-12 14:55:29,335 image.py 474 - app_logger.model.image - DEBUG - Image regions floodfilled successfully!
+2020-05-12 14:55:29,335 image.py 770 - app_logger.model.image - DEBUG - Image contours found successfully!
+2020-05-12 14:55:29,335 image.py 727 - app_logger.model.image - DEBUG - Image contours drawn!
+2020-05-12 14:55:29,335 image.py 499 - app_logger.model.image - DEBUG - Image regions extracted successfully!
+2020-05-12 14:55:29,335 image.py 714 - app_logger.model.image - DEBUG - Image region deleted successfully!
+2020-05-12 14:55:29,335 controller.py 614 - app_logger.controller.controller - DEBUG - Image region X: 150, Y: 20 deleted successfully!
+2020-05-12 14:55:29,335 image.py 131 - app_logger.model.image - DEBUG - Image lysto_pilot_1.png data reloaded!
+2020-05-12 14:55:29,335 image.py 286 - app_logger.model.image - DEBUG - Image highlighted successfully!
+2020-05-12 14:55:29,335 view.py 591 - app_logger.view.view - DEBUG - Image items to be set: ['X: 58 Y: 237', 'X: 24 Y: 190', 'X: 151 Y: 165', 'X: 125 Y: 161']
+2020-05-12 14:55:29,335 view.py 641 - app_logger.view.view - DEBUG - Items to be highlighted: ['X: 58 Y: 237', 'X: 24 Y: 190', 'X: 151 Y: 165', 'X: 125 Y: 161']
+2020-05-12 14:55:29,335 view.py 662 - app_logger.view.view - DEBUG - Item coords to be highlighted X: 58, Y: 237
+2020-05-12 14:55:29,351 image.py 317 - app_logger.model.image - DEBUG - Image pixels filled successfully!
+2020-05-12 14:55:29,351 controller.py 253 - app_logger.controller.controller - DEBUG - Image data to qimage data converted!
+2020-05-12 14:55:29,351 image.py 154 - app_logger.model.image - DEBUG - Image name: lysto_pilot_1.png
+2020-05-12 14:55:29,351 controller.py 364 - app_logger.controller.controller - DEBUG - Lymphocytes count: 4
+2020-05-12 14:55:29,351 view.py 304 - app_logger.view.view - DEBUG - Source image set successful!
+2020-05-12 14:55:29,351 view.py 662 - app_logger.view.view - DEBUG - Item coords to be highlighted X: 24, Y: 190
+2020-05-12 14:55:29,351 image.py 317 - app_logger.model.image - DEBUG - Image pixels filled successfully!
+2020-05-12 14:55:29,351 controller.py 253 - app_logger.controller.controller - DEBUG - Image data to qimage data converted!
+2020-05-12 14:55:29,351 image.py 154 - app_logger.model.image - DEBUG - Image name: lysto_pilot_1.png
+2020-05-12 14:55:29,366 controller.py 364 - app_logger.controller.controller - DEBUG - Lymphocytes count: 4
+2020-05-12 14:55:29,366 view.py 304 - app_logger.view.view - DEBUG - Source image set successful!
+2020-05-12 14:55:29,366 view.py 662 - app_logger.view.view - DEBUG - Item coords to be highlighted X: 151, Y: 165
+2020-05-12 14:55:29,366 image.py 317 - app_logger.model.image - DEBUG - Image pixels filled successfully!
+2020-05-12 14:55:29,366 controller.py 253 - app_logger.controller.controller - DEBUG - Image data to qimage data converted!
+2020-05-12 14:55:29,366 image.py 154 - app_logger.model.image - DEBUG - Image name: lysto_pilot_1.png
+2020-05-12 14:55:29,366 controller.py 364 - app_logger.controller.controller - DEBUG - Lymphocytes count: 4
+2020-05-12 14:55:29,366 view.py 304 - app_logger.view.view - DEBUG - Source image set successful!
+2020-05-12 14:55:29,366 view.py 662 - app_logger.view.view - DEBUG - Item coords to be highlighted X: 125, Y: 161
+2020-05-12 14:55:29,366 image.py 317 - app_logger.model.image - DEBUG - Image pixels filled successfully!
+2020-05-12 14:55:29,366 controller.py 253 - app_logger.controller.controller - DEBUG - Image data to qimage data converted!
+2020-05-12 14:55:29,382 image.py 154 - app_logger.model.image - DEBUG - Image name: lysto_pilot_1.png
+2020-05-12 14:55:29,382 controller.py 364 - app_logger.controller.controller - DEBUG - Lymphocytes count: 4
+2020-05-12 14:55:29,382 view.py 304 - app_logger.view.view - DEBUG - Source image set successful!
+2020-05-12 14:55:29,382 controller.py 253 - app_logger.controller.controller - DEBUG - Image data to qimage data converted!
+2020-05-12 14:55:29,382 image.py 154 - app_logger.model.image - DEBUG - Image name: lysto_pilot_1.png
+2020-05-12 14:55:29,382 controller.py 364 - app_logger.controller.controller - DEBUG - Lymphocytes count: 4
+2020-05-12 14:55:29,382 view.py 304 - app_logger.view.view - DEBUG - Source image set successful!
+2020-05-12 14:55:29,382 controller.py 253 - app_logger.controller.controller - DEBUG - Image data to qimage data converted!
+2020-05-12 14:55:29,398 image.py 154 - app_logger.model.image - DEBUG - Image name: lysto_pilot_1_mask.png
+2020-05-12 14:55:29,398 view.py 322 - app_logger.view.view - DEBUG - Preview image set successful!
+2020-05-12 14:55:29,398 image.py 770 - app_logger.model.image - DEBUG - Image contours found successfully!
+2020-05-12 14:55:29,398 controller.py 364 - app_logger.controller.controller - DEBUG - Lymphocytes count: 4
