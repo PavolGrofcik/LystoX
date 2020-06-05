@@ -1,0 +1,5 @@
+To download preprocessed dataset, check URL: https://drive.google.com/open?id=1wJMRv7MYC6qujK0x-ywjMfEPUxfbAcug
+In order to upload to GitHub, it was uploaded to GSUITE STU google account, because GitHub does not support
+the files with size bigger than 100MB.
+
+Thank you for understanding!
