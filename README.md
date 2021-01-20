@@ -104,17 +104,18 @@ to build up more robust T-lymphocytes sensitive models with higher score.
 
 
 ## Resources
-Data can be downloaded after registration from:
+Data can be downloaded after registration from:  
+
 https://lysto.grand-challenge.org/
 
 All rights reserved! 
-® Registered Bachelor thesis 
+® Registered 
+Bachelor thesis 
 
-**FIIT STU 2020 
-Pavol Grofčík
-**  
+**FIIT STU 2020**  
+**Pavol Grofčík**  
 
 
-Do not copy anything from these page,
+*Do not copy anything from these page,
 you can have high similarity coefficient
-and fail during final examination!
+and fail during final examination!*
