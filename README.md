@@ -84,12 +84,16 @@ images resulted to better score with comparison to the RGB model.
 
 *Best RGB model*  
 ![Logo](https://github.com/PavolGrofcik/LystoX/blob/master/figures/0_test_data_rgb0.png)
+![Logo](https://github.com/PavolGrofcik/LystoX/blob/master/figures/4_test_data_rgb4.png)
 
 *Best HSV model*  
 ![Logo](https://github.com/PavolGrofcik/LystoX/blob/master/figures/0_test_data_hsv0.png)
+![Logo](https://github.com/PavolGrofcik/LystoX/blob/master/figures/4_test_data_hsv4.png)
 
 *Best LAB model*  
 ![Logo](https://github.com/PavolGrofcik/LystoX/blob/master/figures/0_test_data_lab0.png)
+![Logo](https://github.com/PavolGrofcik/LystoX/blob/master/figures/4_test_data_lab4.png)
+
 
 ## Future work
 
@@ -100,4 +104,17 @@ to build up more robust T-lymphocytes sensitive models with higher score.
 
 
 ## Resources
+Data can be downloaded after registration from:
 https://lysto.grand-challenge.org/
+
+All rights reserved! 
+® Registered Bachelor thesis 
+
+**FIIT STU 2020 
+Pavol Grofčík
+**  
+
+
+Do not copy anything from these page,
+you can have high similarity coefficient
+and fail during final examination!
