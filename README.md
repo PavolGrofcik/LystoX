@@ -77,6 +77,9 @@ with specific size.
 | LAB | .15      |    9 | .6919 | .6145 |
 
 
+In coclusion we can accept that converting images to different color space such as HSV/LAB
+has an effect on final prediction. It is shown below that training models with these type of
+images resulted to better score with comparison to the RGB model. 
 ## Final segmented T-lymphocytes
 
 *Best RGB model*  
@@ -87,3 +90,10 @@ with specific size.
 
 *Best LAB model*  
 ![Logo](https://github.com/PavolGrofcik/LystoX/blob/master/figures/0_test_data_lab0.png)
+
+## Future work
+
+Future work can include normalization using Z-mean normalization or more sophisticated
+stain normalizations using Macenko/Vahadane method. Since our images are stained,
+normalization of the specific stain could help both pathologist (humans) and our AI models
+to build up more robust T-lymphocytes sensitive models with higher score.
