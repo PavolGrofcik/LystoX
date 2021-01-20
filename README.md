@@ -116,6 +116,6 @@ Bachelor thesis
 **Pavol Grofčík**  
 
 
-*Do not copy anything from these page,
+*Please do not copy anything from these repositary,
 you can have high similarity coefficient
 and fail during final examination!*
