@@ -97,3 +97,7 @@ Future work can include normalization using Z-mean normalization or more sophist
 stain normalizations using Macenko/Vahadane method. Since our images are stained,
 normalization of the specific stain could help both pathologist (humans) and our AI models
 to build up more robust T-lymphocytes sensitive models with higher score.
+
+
+## Resources
+https://lysto.grand-challenge.org/
