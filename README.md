@@ -18,6 +18,7 @@ Examples of dataset with highlihted borders with no objects of interest.
 ![Logo](https://github.com/PavolGrofcik/LystoX/blob/master/figures/lysto_pilot_135.png)
 ![Logo](https://github.com/PavolGrofcik/LystoX/blob/master/figures/lysto_pilot_402.png)
 ![Logo](https://github.com/PavolGrofcik/LystoX/blob/master/figures/lysto_pilot_5.png)
+![Logo](https://github.com/PavolGrofcik/LystoX/blob/master/figures/lysto_pilot_417.png)
 
 
 ## Data pipeline process 
@@ -33,14 +34,21 @@ also consists of postprocesing our predicted images using thresholdin and
 morphological operations such as opening/closing in order to delete noisy and
 incorrect prediction so that we achieve higher model score
 
-*Activity diagram*
+*Activity diagram*  
+
 ![Logo](https://github.com/PavolGrofcik/LystoX/blob/master/figures/activity_diagram.png)
 
 
-*Architecture diagram*
+*Architecture diagram*  
+
 ![Logo](https://github.com/PavolGrofcik/LystoX/blob/master/figures/Architecture_diagram.png)
 
 ## Model of our DNN
+
+Model represents recent state-of-the art UNET architecture. However image sizes
+are different as shown in image (299x299px)  
+
+
 ![Logo](https://github.com/PavolGrofcik/LystoX/blob/master/figures/Unet.PNG)
 
 ## Final score
@@ -49,6 +57,7 @@ incorrect prediction so that we achieve higher model score
 Here are tables of best model with achieved score and using postprocessing 
 operations as thresholding (Thresh) and morphological opening using structural element (SE)
 with specific size.
+
 
 **Table of best models in thesis**
 | Model        | Thresh | SE | Dice           | Jaccard  | 
@@ -69,11 +78,11 @@ with specific size.
 
 **Final segmented T-lymphocytes**
 
-*Best RGB model*
+*Best RGB model*  
 ![Logo](https://github.com/PavolGrofcik/LystoX/blob/master/figures/0_test_data_rgb0.png)
 
-*Best HSV model*
+*Best HSV model*  
 ![Logo](https://github.com/PavolGrofcik/LystoX/blob/master/figures/0_test_data_hsv0.png)
 
-*Best LAB model*
+*Best LAB model*  
 ![Logo](https://github.com/PavolGrofcik/LystoX/blob/master/figures/0_test_data_lab0.png)
