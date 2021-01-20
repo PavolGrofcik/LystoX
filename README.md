@@ -77,7 +77,7 @@ with specific size.
 | LAB | .15      |    9 | .6919 | .6145 |
 
 
-##Final segmented T-lymphocytes##
+## Final segmented T-lymphocytes
 
 *Best RGB model*  
 ![Logo](https://github.com/PavolGrofcik/LystoX/blob/master/figures/0_test_data_rgb0.png)
