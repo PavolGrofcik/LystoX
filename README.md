@@ -1,5 +1,7 @@
 # LystoX
 
+![Logo](https://github.com/PavolGrofcik/LystoX/blob/master/figures/Logo.png)
+
 **Tabuľka najlepších modelov**
 | Model        | Prah | ŠE | Dice           | Jaccard  | 
 | ------------- |:-------------:| -----:| -----:| -----:| 
