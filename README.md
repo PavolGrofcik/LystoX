@@ -51,9 +51,10 @@ are different as shown in image (299x299px)
 
 ![Logo](https://github.com/PavolGrofcik/LystoX/blob/master/figures/Unet.PNG)
 
-## Final score
+## Final score  
 
-**Final predictions**
+**Final predictions**  
+
 Here are tables of best model with achieved score and using postprocessing 
 operations as thresholding (Thresh) and morphological opening using structural element (SE)
 with specific size.
@@ -76,7 +77,7 @@ with specific size.
 | LAB | .15      |    9 | .6919 | .6145 |
 
 
-**Final segmented T-lymphocytes**
+##Final segmented T-lymphocytes##
 
 *Best RGB model*  
 ![Logo](https://github.com/PavolGrofcik/LystoX/blob/master/figures/0_test_data_rgb0.png)
