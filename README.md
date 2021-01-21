@@ -11,7 +11,7 @@ colon, breast, prostate tissues. The tissue was marked with CD3 and CD8 marker,
 so T-lymphocytes were highlighted as brown cells with brighter blue nuclues.
 All images have size 299x299 pixels in *.png* format. 
 
-Examples of dataset with highlihted borders(borders excluded objects of interest).
+Examples of dataset with highlihted borders (borders excluded objects of interest).
 
 ![Logo](https://github.com/PavolGrofcik/LystoX/blob/master/figures/lysto_pilot_11.png)
 ![Logo](https://github.com/PavolGrofcik/LystoX/blob/master/figures/lysto_pilot_14.png)
