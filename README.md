@@ -6,9 +6,9 @@
 ![Logo](https://github.com/PavolGrofcik/LystoX/blob/master/figures/Logo.png)
 
 ## Dataset
-Dataset consists of histological data of human body, specifically from
+Dataset consists of histological images of human body, specifically from
 colon, breast, prostate tissues. The tissue was marked with CD3 and CD8 marker,
-so T-lymphocytes were highlithed as brown cells with brigher blue nuclues.
+so T-lymphocytes were highlighted as brown cells with brighter blue nuclues.
 All images have size 299x299 pixels in *.png* format. 
 
 Examples of dataset with highlihted borders with no objects of interest.
@@ -19,20 +19,23 @@ Examples of dataset with highlihted borders with no objects of interest.
 ![Logo](https://github.com/PavolGrofcik/LystoX/blob/master/figures/lysto_pilot_402.png)
 ![Logo](https://github.com/PavolGrofcik/LystoX/blob/master/figures/lysto_pilot_5.png)
 ![Logo](https://github.com/PavolGrofcik/LystoX/blob/master/figures/lysto_pilot_417.png)
+![Logo](https://github.com/PavolGrofcik/LystoX/blob/master/figures/lysto_pilot_1687.png)
+![Logo](https://github.com/PavolGrofcik/LystoX/blob/master/figures/lysto_pilot_2510.png) 
 
 
 ## Data pipeline process 
-It includes at first downloading data, then create binary mask for some of them.
-After creating correspondig masks we convert source images to HSV and LAB color
-space. There were a hypothesis that differenct color spaces can adjust final
-test score as result to have more range in representing colors and our model
+At first it includes downloading data, then create binary mask for some of them
+using implemented tool **LystoX**.
+After creating correspondig masks we convert source images also to HSV and LAB color
+space. There were a hypothesis that differenct color spaces can have higher final
+test score as result to have more range in representing colors and therefore our model
 can better catch the trend during trainig. 
-Secondly augmentation using rotation, horizontal/vertical flipping (mask also!)
+Secondly follows augmentation using rotation, horizontal/vertical flipping (masks also!)
 
-Finally we train our model, validate and test on finale dataset. Validation
-also consists of postprocesing our predicted images using thresholdin and 
+Finally we train our model (UNET), validate and test on final dataset. Validation
+also consists of postprocesing our predicted images using thresholding and 
 morphological operations such as opening/closing in order to delete noisy and
-incorrect prediction so that we achieve higher model score
+incorrect predictions so that we achieve higher final test score
 
 *Activity diagram*  
 
@@ -78,7 +81,7 @@ with specific size.
 
 
 In coclusion we can accept that converting images to different color space such as HSV/LAB
-has an effect on final prediction. It is shown below that training models with these type of
+has an effect on our final prediction. It is shown below that training models with these type of
 images resulted to better score with comparison to the RGB model. 
 ## Final segmented T-lymphocytes
 
@@ -100,7 +103,7 @@ images resulted to better score with comparison to the RGB model.
 Future work can include normalization using Z-mean normalization or more sophisticated
 stain normalizations using Macenko/Vahadane method. Since our images are stained,
 normalization of the specific stain could help both pathologist (humans) and our AI models
-to build up more robust T-lymphocytes sensitive models with higher score.
+to build up more robust T-lymphocytes sensitive models with achieving higher score.
 
 
 ## Resources
