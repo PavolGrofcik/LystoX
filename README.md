@@ -11,8 +11,7 @@ colon, breast, prostate tissues. The tissue was marked with CD-3 and CD-8 marker
 so that T-lymphocytes had been highlighted as brown cells with brighter blue nuclues.
 All images have size 299x299 pixels in *.png* format. 
 
-Examples of dataset with highlihted borders 15x15 pixels (yellow).  
-Note that borders exclude objects of interest.  
+Examples of dataset images with no preprocessing steps applied:
 
 
 ![Logo](https://github.com/PavolGrofcik/LystoX/blob/master/figures/lysto_pilot_11.png)
@@ -91,17 +90,17 @@ images resulted to better score with comparison to the RGB model.
 *Best RGB model*  
 ![Logo](https://github.com/PavolGrofcik/LystoX/blob/master/figures/0_test_data_rgb0.png)
 ![Logo](https://github.com/PavolGrofcik/LystoX/blob/master/figures/4_test_data_rgb4.png)
-![Logo](https://github.com/PavolGrofcik/LystoX/blob/master/figures/*_test_data_rgb8.png)
+![Logo](https://github.com/PavolGrofcik/LystoX/blob/master/figures/8_test_data_rgb0.png)
 
 *Best HSV model*  
 ![Logo](https://github.com/PavolGrofcik/LystoX/blob/master/figures/0_test_data_hsv0.png)
 ![Logo](https://github.com/PavolGrofcik/LystoX/blob/master/figures/4_test_data_hsv4.png)
-![Logo](https://github.com/PavolGrofcik/LystoX/blob/master/figures/8_test_data_hsv8.png)
+![Logo](https://github.com/PavolGrofcik/LystoX/blob/master/figures/8_test_data_hsv0.png)
 
 *Best LAB model*  
 ![Logo](https://github.com/PavolGrofcik/LystoX/blob/master/figures/0_test_data_lab0.png)
 ![Logo](https://github.com/PavolGrofcik/LystoX/blob/master/figures/4_test_data_lab4.png)
-![Logo](https://github.com/PavolGrofcik/LystoX/blob/master/figures/8_test_data_lab8.png)
+![Logo](https://github.com/PavolGrofcik/LystoX/blob/master/figures/8_test_data_lab0.png)
 
 
 ## Future work
