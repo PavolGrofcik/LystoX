@@ -27,17 +27,28 @@ Examples of dataset images with no preprocessing steps applied:
 
 ## Data pipeline process 
 At first it includes downloading data, then create binary mask for some of them
-using implemented tool **LystoX**.
+using our implemented tool **LystoX**.
 After creating correspondig masks we convert source images also to HSV and LAB color
 space. There were a hypothesis that differenct color spaces can have higher final
 test score as result to have more range in representing colors and therefore our model
 can better catch the trend during trainig. 
 Secondly follows augmentation using rotation, horizontal/vertical flipping (masks also!)
 
+Here is an example of the augmentation of the binary mask. From left to the right:
+Original, Horizontal, Vertical Flipping, Rotation by 90° anti-clockwise.
+
+![Logo](https://github.com/PavolGrofcik/LystoX/blob/master/figures/lysto_pilot_1111_mask.png)
+![Logo](https://github.com/PavolGrofcik/LystoX/blob/master/figures/lysto_pilot_1111_aug0_mask.png)
+![Logo](https://github.com/PavolGrofcik/LystoX/blob/master/figures/lysto_pilot_1111_aug1_mask.png)
+![Logo](https://github.com/PavolGrofcik/LystoX/blob/master/figures/lysto_pilot_1111_aug2_mask.png)
+![Logo](https://github.com/PavolGrofcik/LystoX/blob/master/figures/lysto_pilot_1111_aug3_mask.png)
+![Logo](https://github.com/PavolGrofcik/LystoX/blob/master/figures/lysto_pilot_1111_aug4_mask.png)
+
+
 Finally we train our model (UNET), validate and test on final dataset. Validation
 also consists of postprocesing our predicted images using thresholding and 
 morphological operations such as opening/closing in order to delete noisy and
-incorrect predictions so that we achieve higher final test score
+incorrect predictions so that we achieve higher final test score.
 
 *Activity diagram*  
 
@@ -51,7 +62,7 @@ incorrect predictions so that we achieve higher final test score
 ## Model of our DNN
 
 Model represents recent state-of-the art UNET architecture. However image sizes
-are different as shown in image (299x299px)  
+are different as shown in image architecture. (299x299px)  
 
 
 ![Logo](https://github.com/PavolGrofcik/LystoX/blob/master/figures/Unet.PNG)
@@ -60,9 +71,11 @@ are different as shown in image (299x299px)
 
 **Final predictions**  
 
-Here are tables of best model with achieved score and using postprocessing 
+Here are tables of best models with achieved score and using postprocessing 
 operations as thresholding (Thresh) and morphological opening using structural element (SE)
-with specific size.
+with specific size. Structural element represented ellipse with specific size.
+(See below)  
+
 
 
 **Table of best models in thesis**
@@ -82,9 +95,9 @@ with specific size.
 | LAB | .15      |    9 | .6919 | .6145 |
 
 
-In coclusion we can accept that converting images to different color space such as HSV/LAB
+In conlusion we can accept that converting images to different color space such as HSV/LAB
 has an effect on our final prediction. It is shown below that training models with these type of
-images resulted to better score with comparison to the RGB model. 
+images resulted in general to better score with comparison to the RGB model. 
 ## Final segmented T-lymphocytes
 
 *Best RGB model*  
