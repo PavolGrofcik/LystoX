@@ -38,11 +38,11 @@ Here is an example of the augmentation of the binary mask. From left to the righ
 Original, Horizontal, Vertical Flipping, Rotation by 90° anti-clockwise.
 
 ![Logo](https://github.com/PavolGrofcik/LystoX/blob/master/figures/lysto_pilot_1111_mask.png)
-![Logo](https://github.com/PavolGrofcik/LystoX/blob/master/figures/lysto_pilot_1111_aug0_mask.png)
-![Logo](https://github.com/PavolGrofcik/LystoX/blob/master/figures/lysto_pilot_1111_aug1_mask.png)
-![Logo](https://github.com/PavolGrofcik/LystoX/blob/master/figures/lysto_pilot_1111_aug2_mask.png)
-![Logo](https://github.com/PavolGrofcik/LystoX/blob/master/figures/lysto_pilot_1111_aug3_mask.png)
-![Logo](https://github.com/PavolGrofcik/LystoX/blob/master/figures/lysto_pilot_1111_aug4_mask.png)
+![Logo](https://github.com/PavolGrofcik/LystoX/blob/master/figures/lysto_pilot_1111_aug_0_mask.png)
+![Logo](https://github.com/PavolGrofcik/LystoX/blob/master/figures/lysto_pilot_1111_aug_1_mask.png)
+![Logo](https://github.com/PavolGrofcik/LystoX/blob/master/figures/lysto_pilot_1111_aug_2_mask.png)
+![Logo](https://github.com/PavolGrofcik/LystoX/blob/master/figures/lysto_pilot_1111_aug_3_mask.png)
+![Logo](https://github.com/PavolGrofcik/LystoX/blob/master/figures/lysto_pilot_1111_aug_4_mask.png)
 
 
 Finally we train our model (UNET), validate and test on final dataset. Validation
