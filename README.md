@@ -7,11 +7,13 @@
 
 ## Dataset
 Dataset consists of histological images of human body, specifically from
-colon, breast, prostate tissues. The tissue was marked with CD3 and CD8 marker,
-so T-lymphocytes were highlighted as brown cells with brighter blue nuclues.
+colon, breast, prostate tissues. The tissue was marked with CD-3 and CD-8 marker,
+so that T-lymphocytes had been highlighted as brown cells with brighter blue nuclues.
 All images have size 299x299 pixels in *.png* format. 
 
-Examples of dataset with highlihted borders (borders excluded objects of interest).
+Examples of dataset with highlihted borders 15x15 pixels (yellow).  
+Note that borders exclude objects of interest.  
+
 
 ![Logo](https://github.com/PavolGrofcik/LystoX/blob/master/figures/lysto_pilot_11.png)
 ![Logo](https://github.com/PavolGrofcik/LystoX/blob/master/figures/lysto_pilot_14.png)
@@ -21,7 +23,7 @@ Examples of dataset with highlihted borders (borders excluded objects of interes
 ![Logo](https://github.com/PavolGrofcik/LystoX/blob/master/figures/lysto_pilot_417.png)
 ![Logo](https://github.com/PavolGrofcik/LystoX/blob/master/figures/lysto_pilot_1687.png)
 ![Logo](https://github.com/PavolGrofcik/LystoX/blob/master/figures/lysto_pilot_2510.png) 
-![Logo](https://github.com/PavolGrofcik/LystoX/blob/master/figures/lysto_pilot_412.png) 
+<!-- ![Logo](https://github.com/PavolGrofcik/LystoX/blob/master/figures/lysto_pilot_412.png)  -->
 
 
 ## Data pipeline process 
@@ -89,22 +91,27 @@ images resulted to better score with comparison to the RGB model.
 *Best RGB model*  
 ![Logo](https://github.com/PavolGrofcik/LystoX/blob/master/figures/0_test_data_rgb0.png)
 ![Logo](https://github.com/PavolGrofcik/LystoX/blob/master/figures/4_test_data_rgb4.png)
+![Logo](https://github.com/PavolGrofcik/LystoX/blob/master/figures/*_test_data_rgb8.png)
 
 *Best HSV model*  
 ![Logo](https://github.com/PavolGrofcik/LystoX/blob/master/figures/0_test_data_hsv0.png)
 ![Logo](https://github.com/PavolGrofcik/LystoX/blob/master/figures/4_test_data_hsv4.png)
+![Logo](https://github.com/PavolGrofcik/LystoX/blob/master/figures/8_test_data_hsv8.png)
 
 *Best LAB model*  
 ![Logo](https://github.com/PavolGrofcik/LystoX/blob/master/figures/0_test_data_lab0.png)
 ![Logo](https://github.com/PavolGrofcik/LystoX/blob/master/figures/4_test_data_lab4.png)
+![Logo](https://github.com/PavolGrofcik/LystoX/blob/master/figures/8_test_data_lab8.png)
 
 
 ## Future work
 
-Future work can include normalization using Z-mean normalization or more sophisticated
-stain normalizations using Macenko/Vahadane method. Since our images are stained,
+Future work can include normalization using standard Z-mean normalization or more sophisticated
+stain normalizations for instance Macenko/Vahadane method. Since our images are stained,
 normalization of the specific stain could help both pathologist (humans) and our AI models
-to build up more robust T-lymphocytes sensitive models with achieving higher score.
+to better segment and be more robust towards T-lymphocytes and 
+artifacts that resemble similar in some cases. This could be demonstrated as a future work
+with model accuracy and conclude if the normalization has great advantage over none.
 
 
 ## Resources
