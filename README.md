@@ -11,7 +11,8 @@ colon, breast, prostate tissues. The tissue was marked with CD-3 and CD-8 marker
 so that T-lymphocytes had been highlighted as brown cells with brighter blue nuclues.
 All images have size 299x299 pixels in *.png* format. 
 
-Examples of dataset images with no preprocessing steps applied:
+Examples of dataset images with highlighting outer borders 16x16 pixels.
+Note that these borders excluded our objects of interests T-Lymphocytes:
 
 
 ![Logo](https://github.com/PavolGrofcik/LystoX/blob/master/figures/lysto_pilot_11.png)
@@ -34,7 +35,7 @@ test score as result to have more range in representing colors and therefore our
 can better catch the trend during trainig. 
 Secondly follows augmentation using rotation, horizontal/vertical flipping (masks also!)
 
-Here is an example of the augmentation of the binary mask. From left to the right:
+Here is an example of the augmentation of the binary mask. From left to the right and down:
 Original, Horizontal, Vertical Flipping, Rotation by 90° anti-clockwise.
 
 ![Logo](https://github.com/PavolGrofcik/LystoX/blob/master/figures/lysto_pilot_1111_mask.png)
